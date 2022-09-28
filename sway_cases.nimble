@@ -1,20 +1,17 @@
 # Package
 
-from std/os import `/`
-from std/sugar import collect
-from std/strformat import `&`
+from std/sequtils import mapIt
 
-version       = "1.1.0"
+
+version       = "1.1.1"
 author        = "Jason Yip"
 description   = "My application of `libsway_cases`"
 license       = "GPL-2.0-only"
 srcDir        = "src"
 
 binDir        = "bin"
-const binList = ["kill", "fullscreen"]
+namedBin      = ["kill", "fullscreen"].mapIt((it, "special_" & it)).toTable()
 
-namedBin      = collect initTable():
-  for name in binList: { name : &"special_{name}" }
 
 
 # Dependencies
