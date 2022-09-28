@@ -16,5 +16,5 @@ namedBin      = ["kill", "fullscreen"].mapIt((it, "special_" & it)).toTable()
 
 # Dependencies
 
-requires "nim >= 1.4 & < 2"
+requires "nim >= 1.6 & < 2"
 requires "https://github.com/jasyip/libsway-cases >= 1.3 & < 2"
