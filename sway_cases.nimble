@@ -4,7 +4,7 @@ from std/os import `/`
 from std/sugar import collect
 from std/strformat import `&`
 
-version       = "1.0.0"
+version       = "1.1.0"
 author        = "Jason Yip"
 description   = "My application of `libsway_cases`"
 license       = "GPL-2.0-only"
@@ -20,4 +20,4 @@ namedBin      = collect initTable():
 # Dependencies
 
 requires "nim >= 1.4 & < 2"
-requires "libsway_cases >= 1 & < 2"
+requires "https://github.com/jasyip/libsway_cases >= 1 & < 2"

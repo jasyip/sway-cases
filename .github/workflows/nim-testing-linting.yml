@@ -22,7 +22,7 @@ jobs:
       - uses: iffy/install-nim@v4.1.3
         with:
           version: binary:1.4.0
-      - run: nimble install --accept 'https://github.com/jasyip/libsway-cases'
+      - run: nimble install --accept --depsOnly
       - run: nimble test --reject
 
   nim-lint:
