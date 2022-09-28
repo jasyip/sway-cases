@@ -23,7 +23,7 @@ jobs:
         with:
           version: binary:1.4.0
       - run: nimble install --accept 'https://github.com/jasyip/libsway-cases'
-      - run: nimble test
+      - run: nimble test --reject
 
   nim-lint:
     name: Lint Nim code
