@@ -6,7 +6,7 @@ from std/strformat import `&`
 
 version       = "1.0.0"
 author        = "Jason Yip"
-description   = "Make special exceptions for certain windows and sway commands"
+description   = "My application of `libsway_cases`"
 license       = "GPL-2.0-only"
 srcDir        = "src"
 
