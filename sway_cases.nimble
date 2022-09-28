@@ -20,4 +20,4 @@ namedBin      = collect initTable():
 # Dependencies
 
 requires "nim >= 1.4 & < 2"
-requires "https://github.com/jasyip/libsway_cases >= 1 & < 2"
+requires "https://github.com/jasyip/libsway-cases >= 1 & < 2"
