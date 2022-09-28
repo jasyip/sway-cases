@@ -1,2 +1,2 @@
 # sway-cases
-Make special exceptions for certain windows and sway commands
+My personal application of `libsway-cases`
