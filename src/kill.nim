@@ -15,7 +15,7 @@ let directCriteria* = [
     initCriteria(re"^Zoom - (Free|Licensed) Account$", "name"),
   ],
   @[
-    initCriteria("Zoom", "window_properties", "class"),
+    initCriteria("zoom", "window_properties", "class"),
     initCriteria(re"^Zoom - (Free|Licensed) Account$", "name"),
   ],
 ]
